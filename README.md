@@ -1,51 +1,53 @@
-# Welcome to your Expo app 👋
-Projeto criado para disciplina de extensão do curso de ADS da Estácio
+Aqui está o README formatado para o GitHub, com Markdown adequado para exibir as funcionalidades e orientações de forma clara:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+AF Consultoria - Aplicativo de Cartão de Visita 👋
 
-## Get started
+Bem-vindo ao repositório do aplicativo de cartão de visita digital da AF Consultoria! Este projeto foi desenvolvido em React Native utilizando Expo e faz parte de uma iniciativa para facilitar o contato com o escritório e a apresentação de seus serviços de forma prática e acessível.
 
-1. Install dependencies
+🚀 Visão Geral
 
-   ```bash
-   npm install
-   ```
+O aplicativo AF Consultoria tem como objetivo proporcionar uma plataforma intuitiva e amigável para que os clientes possam conhecer melhor o escritório, acessar informações de contato e, se necessário, buscar orientação jurídica de forma rápida. O app permite:
 
-2. Start the app
+	•	Visualizar o perfil do escritório: Exibe as principais áreas de atuação, valores e visão da AF Consultoria.
+	•	Contato direto: Facilita o contato com a equipe via telefone, e-mail e redes sociais.
+	•	Mapas e Localização: Inclui integração com serviços de mapas para direcionamento ao escritório.
+	•	Atendimento Pro Bono: Disponibiliza informações para o público que necessita de assistência jurídica gratuita.
 
-   ```bash
-    npx expo start
-   ```
+📋 Pré-requisitos
 
-In the output, you'll find options to open the app in a
+Antes de começar, você precisará ter o Node.js e o Expo CLI instalados em sua máquina.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Instale o Expo CLI, caso ainda não tenha
+npm install -g expo-cli
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🚀 Como Começar
 
-## Get a fresh project
+Siga os passos abaixo para instalar as dependências e iniciar o aplicativo localmente:
 
-When you're ready, run:
+	1.	Instale as dependências
 
-```bash
+npm install
+
+
+	2.	Inicie o aplicativo
+
+npx expo start
+
+
+
+Ao executar o comando, você terá opções para abrir o app em:
+
+	•	Ambiente de Desenvolvimento
+	•	Emulador Android
+	•	Simulador iOS
+	•	Expo Go: um ambiente de teste para desenvolvimento rápido com Expo
+
+	💡 Dica: Comece a desenvolver editando os arquivos no diretório app. Este projeto utiliza roteamento baseado em arquivos, o que simplifica a organização da navegação entre as telas.
+
+🔄 Reiniciando o Projeto
+
+Se precisar de um projeto limpo, execute o seguinte comando:
+
 npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este comando moverá o código inicial para o diretório app-example e criará um diretório em branco app para você iniciar seu desenvolvimento.
